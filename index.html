@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="w3.css" />
+  </head>
+
+  <body class="w3-display-container">
+    <h4>Welcome to your DAT</h4>
+    <p>
+      Dat URL:
+      <textarea row="6" cols="60" id="url" /></textarea>&nbsp; &nbsp; &nbsp;<button id="load">
+        Load DAT
+      </button>
+    </p>
+    <p>
+      Example:
+      dat://1ca88e14453dbb98cbe14fda4ee7287bfc1031b6c9927f1d97b1f3470daeea0a
+    </p>
+    <hr />
+    Username: <input type="text" id="username" size="40" /> <br />
+    Name: <input type="text" id="name" size="40" /><br />
+
+    <br />
+    Twitter:<input type="text" id="twitter" size="40" /><br />
+    Github:<input type="text" id="github" size="40" /><br />
+    <br />
+    <br />
+    <button id="clear-storage">Clear localstorage</button>
+    <button id="btn-save">Save data</button>
+    <hr />
+    <p>Raw Json</p>
+    <code id="app"></code>
+
+    <script src="js/bundle.js"></script>
+  </body>
+</html>

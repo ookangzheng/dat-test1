@@ -1,0 +1,16 @@
+{
+  "name": "beaker-dat-js",
+  "version": "1.0.0",
+  "description": "test123",
+  "main": "index.js",
+  "scripts": {
+    "watch": "budo js/index.js:js/bundle.js --live"
+  },
+  "author": "ookangzheng",
+  "license": "MIT",
+  "dependencies": {
+    "dat-js": "^7.1.0",
+    "random-access-idb": "^1.2.1"
+  },
+  "devDependencies": {}
+}
